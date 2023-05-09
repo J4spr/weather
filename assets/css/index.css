@@ -1,0 +1,10 @@
+.nav{
+    list-style-type: none;
+}
+.nav li{
+    display: inline;
+    background-color: green;
+}
+.nav li a{
+    text-decoration: none;
+}
