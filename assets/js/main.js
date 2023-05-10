@@ -68,3 +68,4 @@ function getWeatherData() {
 
   return data;
 }
+
