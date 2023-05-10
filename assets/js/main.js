@@ -65,7 +65,6 @@ function getWeatherData() {
   if (city === "") return;
 
   data = fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${ApiKey}`).then((res) => res.json())
-
   return data;
 }
 
