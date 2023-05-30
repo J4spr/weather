@@ -59,7 +59,7 @@ async function onSearch() {
 }
 
 function getWeatherData() {
-  const ApiKey = "YOUR_API_TOKEn";
+  const ApiKey = "";
   const city = document.querySelector(".search-box input").value;
 
   if (city === "") return;
